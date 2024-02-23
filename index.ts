@@ -1,6 +1,6 @@
 import express, { Express, Request, Response , Application, Router } from 'express';
 import dotenv from 'dotenv';
-import routers from './src/routes/routers';
+import routers from './src/routes/index.router';
 
 //For env File 
 dotenv.config();
