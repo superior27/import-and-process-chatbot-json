@@ -1,4 +1,4 @@
-import makeCard from "../../dtos/make_card.dto";
+import make_card from "../../dtos/make_card.dto";
 
 class ImportService{
 
@@ -6,7 +6,7 @@ class ImportService{
         let jsonFile = require('../../public/storage/sulamericaodontolooping_1.json');
         const objs = Object.values(jsonFile.flow);
         objs.forEach(function(obj:any){
-           makeCard(obj); 
+           make_card(obj); 
         });
         return jsonFile.flow;
         // return jsonFile.flow.onboarding["$contentActions"];

@@ -1,4 +1,4 @@
-export default function makeCard(obj:any)
+export default function make_card(obj:any)
 {
     console.log(obj?.id);
     console.log(obj["$contentActions"]);
